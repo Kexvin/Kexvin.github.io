@@ -1,6 +1,8 @@
 body {
     background-color: lightcyan;
     font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
     }
 h1 {
     color: black;
