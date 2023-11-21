@@ -12,10 +12,14 @@ h1 {
     }
 .assign 
 {
-    display: flex;
+    display: block;
     margin: 10px;
     padding: 10px;
     background-color: skyblue;
+    border-radius: 20px;
+    box-shadow: 8px 8px blue;
+    width: 20%;
+    
     
 }
 .assign img
