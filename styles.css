@@ -3,46 +3,55 @@ body {
     font-family: sans-serif;
     display: flex;
     flex-wrap: wrap;
-}
-
+    }
 h1 {
     color: black;
     text-align: center;
     width: 100%;
     display: block;
-}
+    }
 
-h1:hover {
+h1:hover
+{
     color: blue;
     text-align: center;
     width: 100%;
     display: block;
-}
 
-.assign {
+}
+.assign 
+{
     background-color: skyblue;
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
     width: 20%;
     box-shadow: 8px 8px blue;
+    width: 20%;
     display: block;
+    max-width: 100%;
+    overflow: hidden;
+    
+    
 }
-
-.assign img {
+.assign img
+{
     width: 400px;
     height: auto;
     margin: 10px;
     border: 2px solid midnightblue;
+    max-width: 90%;
+    display: block;
 }
 
-.assign img:hover {
-    width: 200px;
+.assign img:hover
+{
+    width: 200px; 
     margin: 10px;
     border: 2px dotted yellow;
 }
 
 a {
-    text-decoration: none; /* remove underlining on anchor tags */
-    color: midnightblue; /* pick the color you want */
+ text-decoration: none; 
+ color: midnightblue; 
 }
